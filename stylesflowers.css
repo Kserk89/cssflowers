@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+.container {
+    margin: auto;
+    width: 100%;
+    max-width: 90%;
+}
+body {
+    background-color: rgba(179, 184, 174, 0.726);
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
+}
+body h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+body h3 {
+    font-family: 'Lobster', cursive;
+}
+img {
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgb(78, 199, 88);
+}
+@media (max-width: 750px) {
+    .container {
+        display: block;
+        text-align: justify;
+    }
+}
+li {
+    list-style: none;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+ol { 
+    padding-left: 0;
+}
+strong {
+    font-family: 'Lobster', cursive;
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.bg-1 {
+background-color: #fceea8;
+}
+.bg-2 {
+background-color: #facaa4;
+}
+.bg-3 {
+background-color: #9feb81;
+}
+.bg-4 {
+background-color: #aafaed;
+}
+.bg-5 {
+background-color: #a2b2f7;
+}
+.bg-6 {
+background-color: #f1d1a0;
+}
+.bg-7 {
+background-color: #f6bbf8;
+}
+.bg-8 {
+background-color: #f8caaf;
+}
+.bg-9 {
+background-color: #aef8ae;
+}
+.bg-10 {
+background-color: #f5c497;
+}
+.bg-11 {
+background-color: #a7f3da;
+}
+.bg-12 {
+background-color: #fab1ee;
+}
+.bg-13 {
+background-color: #b7ee6f;
+}
+
+.info {
+display: flex;
+margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+    }
+
+.info-text {
+margin-left: 15px;
+text-align: justify;
+}
